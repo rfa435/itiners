@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Definitely not AB2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Getting Started with Yin Shan Lim</h1>
+    <form id="itinerary-form">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="time" name="startTime" id="startTime" placeholder="Start Time">
+        <input type="text" name="duration" id="duration" placeholder="Duration">
+        <input type="text" name="location" id="location" placeholder="Location">
+        <input type="url" name="maps" id="maps" placeholder="Maps URL">
+        <button type="submit">Add Itinerary</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Start Time</th>
+          <th>Duration</th>
+          <th>Location</th>
+          <th>Google Maps</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="itinerary-list"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
